@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Flaskaosnjfd!'
+    return 'Hello from Flask! Testing autodeployment'
 
 @app.route('/github-deploy', methods=['POST'])
 def github_deploy():
